@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!--
+    Author: Nick Grant
+    Date:   5/23/20
+
+    Filename: index.html
+   -->
+
+   <meta charset="utf-8" />
+   <meta keywords="Nick, Grant" />
+   <title>My index.html</title>
+   <link href="base.css" rel="stylesheet" />
+   <link href="layout.css" rel="stylesheet" />
+</head>
+
+<body>
+   <header>
+      <a href="index.html">
+         <img src="Selfie.PNG" alt="Selfie" />
+      </a>
+      <nav>
+         <ul>
+            <li>
+               <a href="index.html">Home</a>
+            </li>
+
+            <li>
+               <a href="Projects.html">Projects</a>
+            </li>
+            
+         </ul>
+      </nav>
+   </header>
+   <article>
+      <h1>Welcome</h1>
+      <img src="Selfie2.png" alt="" />
+            <strong>Hello, my name is Nick Grant</strong>, and it is my goal to create a professional facing website 
+                that can serve to represent the best of that which I have to offer.</p>
+      
+            <p>I have been exposed to Information Technology elements for as long as I can remember. It wasn't until 2012 however that I made the decision to
+                pursue a devoted career path within the world of IT.</p>
+      
+            <p>I graduated from <em>ITT Tech</em> in 2014 with an Associates of Science in Network Engineering. Acquiring that degree served as a major stepping stone
+                to getting my foot in the door. After gaining five years of real world technical experience, I decided to re-enroll in school at <em>Sullivan University</em>
+                to acquire a Bachelore's of Science in Information Technology. Currently, I am set to graduate with my <strong>BSIT Degree</strong>
+                in June of 2012.</p>
+      
+            <p>Phone: (502) 550-6331</p>
+      
+            <p>E-mail: ngrant2120@my.sullivan.edu</p>
+   </article>
+   <footer>Nick Grant Personal &#9832; 3662 Doe Valley Pkwy. East, Brandenburg KY &nbsp; 40108 &#9832; 502-550-6331
+   </footer>
+</body>
+
+</html>
