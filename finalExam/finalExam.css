@@ -1,0 +1,130 @@
+body{
+  font-family: helvetica, sans-serif;
+  color: #000;
+  font-size: 16pt;
+  width: 85%;
+  margin: auto;
+  background-color: #fcf8e8;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  color: #0a97b0;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ecb390;
+}
+
+
+.head{
+  background-color: #ecdfc8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info{
+  width: 70%;
+}
+
+.pic{
+  width: 20%;
+  height: auto;
+}
+
+.pic>img{
+  width: 100%;
+}
+
+.info>h1{
+  font-size: 36pt;
+  margin: 35px 0 0 0;
+  padding: 15px 0 0 15px;
+}
+
+.info>h3{
+  font-size: 24pt;
+  margin: 0;
+  padding: 15px 0 0 15px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+nav{
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  background-color: #ecdfc8;
+  width: 30%;
+  text-align: center;
+}
+
+section{
+  background-color: #f5f5f5;
+  width: 75%;
+}
+
+.aboutMe, .assignments, .links{
+  padding-bottom: 35px;
+}
+
+.title{
+  background-color: #ecb390;
+  font-family: arial, sans-serif;
+  font-size: 22pt;
+  letter-spacing: 2px;
+  margin: 0;
+  padding:  15px 0px 0px 15px;
+}
+
+.sub{
+  font-family: arial, sans-serif;
+  font-size: 16pt;
+  color: #df7861;
+  margin: 15px;
+  padding: 15px;
+}
+
+.aboutMe>p, .links>p{
+  margin: 15px;
+  padding: 15px;
+}
+
+.title-l{
+  text-align: center;
+  background-color: lightgrey;
+  width: 100%;
+}
+
+footer{
+  text-align: center;
+  background-color: #ecb390;
+  padding: 20px 0 20px 0;
+}
+
+
+table{
+  border: none;
+  width: 90%;
+  margin-left: 30px;
+}
+
+tr{
+  display: flex;
+  flex-direction: row;
+}
+
+td{
+  padding: 2px 5px 2px 5px;
+  width: 50%;
+}
