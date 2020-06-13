@@ -1,0 +1,117 @@
+﻿@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 2
+   
+   Bike the Mountains Tour Style Sheet
+   Author: Nick Grant
+   Date:   5/8/2020
+   
+   Filename: mw_styles.css
+*/
+
+
+/* Structural Styles */
+background-color: rgba(173, 189, 227, 1);
+
+/* Why the heck does this need to be here twice to work? something is seriously wrong lol */
+
+body {
+    background-color: rgba(227, 210, 173, 1);
+    font-family: 'Century Gothic', sans-serif;
+}
+
+body {
+    background-color: rgba(227, 210, 173, 1);
+    font-family: 'Century Gothic', sans-serif;
+}
+
+footer {
+    background-color: rgba(208, 184, 109, 1);
+    padding: 5px 0;
+}
+
+
+/* Heading Styles */
+
+h1,
+h2 {
+    font-style: normal;
+}
+
+/* Navigation Styles */
+
+nav > ul {
+    list-style: none;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+
+a {
+    color: rgb(43, 59, 125);
+    text-decoration: none;
+}
+
+a :active {
+    color: rgb(212, 35, 35);
+    font-size: 10em;
+}
+
+address {
+    font-size: 0.9em;
+    font-style: normal;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Article Styles */
+
+#tour_summary h1 {
+    font-size: 2.2em;
+    letter-spacing: 0.2em;
+}
+
+#tour_summary p {
+    font-size: 1.1em;
+}
+
+#tour_summary p:first-of-type::first-line {
+    font-size: 1.2em;
+    font-variant-caps: all-small-caps;
+}
+
+h2:nth-of-type(odd) {
+    color: rgba(79, 91, 40, 1);
+}
+
+h2:nth-of-type(even) {
+    color: rgba(81, 95, 175, 1);
+}
+
+/* Aside Styles */
+
+#tour_itinerary h1 {
+    font-size: 1.2em;
+}
+
+#tour_itinerary h2 {
+    font-size: 0.9em;
+}
+
+#tour_itinerary p {
+    font-size: 0.8em;
+}
+
+
+/* Blockquote Styles */
+
+blockquote {
+    background-color: rgba(173, 189, 227, 1);
+    color: rgba(255, 255, 255, 0.65);
+}
+
+blockquote p {
+    padding: 2.5px 10px;
+}
